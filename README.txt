@@ -3,17 +3,17 @@ LIST1
 >>> 
 =========== RESTART: C:\Users\student.INFORMATYKA\Desktop\list1.py ===========
 match_ends
-  X  got: None expected: 3
-  X  got: None expected: 2
-  X  got: None expected: 1
+  OK  got: 3: 3
+  OK  got: 2: 2
+  OK  got: 1: 1
 front_x
-  X  got: None expected: ['xaa', 'xzz', 'axx', 'bbb', 'ccc']
-  X  got: None expected: ['xaa', 'xcc', 'aaa', 'bbb', 'ccc']
-  X  got: None expected: ['xanadu', 'xyz', 'aardvark', 'apple', 'mix']
+  OK  got: ['xaa', 'xzz', 'axx', 'bbb', 'ccc']: ['xaa', 'xzz', 'axx', 'bbb', 'ccc']
+  OK  got: ['xaa', 'xcc', 'aaa', 'bbb', 'ccc']: ['xaa', 'xcc', 'aaa', 'bbb', 'ccc']
+  OK  got: ['xanadu', 'xyz', 'aardvark', 'apple', 'mix']: ['xanadu', 'xyz', 'aardvark', 'apple', 'mix']
 sort_last
-  X  got: None expected: [(2, 1), (3, 2), (1, 3)]
-  X  got: None expected: [(3, 1), (1, 2), (2, 3)]
-  X  got: None expected: [(2, 2), (1, 3), (3, 4, 5), (1, 7)]
+  OK  got: [(2, 1), (3, 2), (1, 3)]: [(2, 1), (3, 2), (1, 3)]
+  OK  got: [(3, 1), (1, 2), (2, 3)]: [(3, 1), (1, 2), (2, 3)]
+  OK  got: [(2, 2), (1, 3), (3, 4, 5), (1, 7)]: [(2, 2), (1, 3), (3, 4, 5), (1, 7)]
 >>> 
 
 
@@ -25,13 +25,13 @@ LIST2
 >>> 
 =========== RESTART: C:\Users\student.INFORMATYKA\Desktop\list2.py ===========
 remove_adjacent
-  X  got: None expected: [1, 2, 3]
-  X  got: None expected: [2, 3]
-  X  got: None expected: []
+  OK  got: [1, 2, 3]: [1, 2, 3]
+  OK  got: [2, 3]: [2, 3]
+  OK  got: []: []
 linear_merge
-  X  got: None expected: ['aa', 'bb', 'cc', 'xx', 'zz']
-  X  got: None expected: ['aa', 'bb', 'cc', 'xx', 'zz']
-  X  got: None expected: ['aa', 'aa', 'aa', 'bb', 'bb']
+  OK  got: ['aa', 'bb', 'cc', 'xx', 'zz'] expected: ['aa', 'bb', 'cc', 'xx', 'zz']
+  OK  got: ['aa', 'bb', 'cc', 'xx', 'zz']: ['aa', 'bb', 'cc', 'xx', 'zz']
+  OK  got: ['aa', 'aa', 'aa', 'bb', 'bb']: ['aa', 'aa', 'aa', 'bb', 'bb']
 >>> 
 
 
@@ -49,13 +49,13 @@ donuts
  OK  got: 'Number of donuts: many' expected: 'Number of donuts: many'
 both_ends
 spng
-  X  got: None expected: 'spng'
+  OK  got: 'spng': 'spng'
 Helo
-  X  got: None expected: 'Helo'
+  OK  got: 'Helo': 'Helo'
 
-  X  got: None expected: ''
+  OK  got: '': ''
 xyyz
-  X  got: None expected: 'xyyz'
+  OK  got: 'xyyz': 'xyyz'
 fix_start
  OK  got: 'ba**le' expected: 'ba**le'
  OK  got: 'a*rdv*rk' expected: 'a*rdv*rk'
@@ -76,16 +76,16 @@ STRING2
 >>> 
 ========== RESTART: C:\Users\student.INFORMATYKA\Desktop\string2.py ==========
 verbing
-  X  got: None expected: 'hailing'
-  X  got: None expected: 'swimingly'
-  X  got: None expected: 'do'
+  OK  got: 'hailing': 'hailing'
+  OK  got: 'swimingly': 'swimingly'
+  OK  got: 'do': 'do'
 not_bad
-  X  got: None expected: 'This movie is good'
-  X  got: None expected: 'This dinner is good!'
-  X  got: None expected: 'This tea is not hot'
-  X  got: None expected: "It's bad yet not"
+  OK  got: 'This movie is good': 'This movie is good'
+  OK  got: 'This dinner is good!': 'This dinner is good!'
+  OK  got: 'This tea is not hot': 'This tea is not hot'
+  OK  got: "It's bad yet not": "It's bad yet not"
 front_back
-  X  got: None expected: 'abxcdy'
-  X  got: None expected: 'abcxydez'
-  X  got: None expected: 'KitDontenut'
+  OK  got: 'abxcdy': 'abxcdy'
+  OK  got: 'abcxydez': 'abcxydez'
+  OK  got: 'KitDontenut': 'KitDontenut'
 >>> 
