@@ -110,3 +110,7 @@ collatz(8)
 
 ftoc(243)
     117.22222222222223
+    
+    
+    
+    MOŻE NASTĘPNYM RAZEM SIĘ WYLOGUJESZ?
